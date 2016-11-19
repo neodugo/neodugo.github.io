@@ -432,14 +432,14 @@ body {
 .faq_bg {
   display: block;
   height: 0;
-  padding-top: 2264px;
+  padding-top: 2082px;
   margin: 0em 0em 2em 0em;
   overflow: hidden;
   text-indent: -9999em;
   background-image:  url('img/FAQ_bg.png');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 780px 2264px;
+  background-size: 768px 2082px;
 }
 
 
