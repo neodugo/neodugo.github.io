@@ -177,7 +177,8 @@ body {
 /* section 1 */
 .cover {
   /*margin-top: 80px;*/
-  padding: 115px 20px;
+  padding-top: 135px;
+  padding-bottom: 45px;
   background-color: #1f344f;
   background-image: url('img/bg.jpg');
   background-position: center;
