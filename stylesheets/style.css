@@ -439,6 +439,26 @@ body {
   background-size: 768px 2082px;
 }
 
+.bottom_gnb {
+  z-index: 10001;
+  position: fixed;
+  width: 118px;
+  height: 88px;
+  right: 50px;
+  bottom: 135px;
+  border-radius: 4px;
+  overflow: hidden;
+  background-color: #45689b;
+  box-shadow: 0 3px 6px; rgba(0.6); 
+}
+
+.bottom_gnb_alt {
+  padding: 0.6em;
+  font-size: 12px;
+  line-height: 1.6em;
+  color: white;
+
+}
 
 footer {
   display: block;
@@ -472,7 +492,7 @@ footer ol li {
   display: inline-block;
   vertical-align: top;
   position: absolute;
-  right: 55px;
+  right: 50px;
   width: 119px;
   height: 50px;
   overflow: hidden;
