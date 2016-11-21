@@ -16,7 +16,7 @@ fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
 figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
+menu, nav, output, ruby, /*section,*/ summary,
 time, mark, audio, video {
   margin: 0;
   padding: 0;
@@ -25,6 +25,7 @@ time, mark, audio, video {
   font: inherit;
   vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -413,7 +414,7 @@ body {
 }
 
 /*section 7*/
-.faq {
+/*.faq {
   display: block;
   background-color: white; 
   font-size: 34px;
@@ -437,14 +438,139 @@ body {
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: 768px 2082px;
+}*/
+
+.faq {
+  position: relative;
+  margin: 0 auto;
+  padding: 1em 1em;
+  max-width: 600px;
+  letter-spacing: -0.035em;
 }
 
+.faq #six {
+  font-size: 26px;
+  color: #a0a0a0;
+  padding-top: 120px;
+}
+
+.faq_start {
+  display: block;
+  height: 0;
+  padding-top: 200px;
+  overflow: hidden;
+  text-indent: -9999em;
+  background-image:  url('img/communicater.png');
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 100px 130px;
+
+}
+
+.black_bg {
+  display: inline-block;
+  padding-top: 115px;
+  width: 76px;
+  height: 75px;
+  overflow: hidden;
+  text-indent: -9999em;
+  background-image:  url('img/q_icon.png');
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 75px 76px;
+}
+
+.blue_bg {
+  display: inline-block;
+  padding-top: 115px;
+  width: 76px;
+  height: 75px;
+  margin-left: 4.8em;
+  overflow: hidden;
+  text-indent: -9999em;
+  background-image:  url('img/a_icon.png');
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 75px 76px;
+}
+
+.faq li {
+  display: inline-block;
+  letter-spacing: -0.045em;
+  vertical-align: text-top;
+  margin-top: 0.7em;
+}
+
+.Q_1 {
+  width: 125px;
+  font-size: 18px;
+  line-height: 1.2em;
+  margin-right: 1.6em;
+  margin-bottom: 0.25em;
+}
+
+.A_2 {
+  width: 365px;
+  font-size: 14px;
+  line-height: 1.6em;
+  margin-top: -0.13em;
+  padding-bottom: 1em;
+  border: 1px solid white;
+  border-bottom: 3px dotted #bcbcbc;
+}
+
+.A_2_2 {
+  width: 365px;
+  font-size: 14px;
+  line-height: 1.6em;
+  margin-top: -0.13em;
+  padding-bottom: 3em;
+  border: 1px solid white;
+  border-bottom: 3px dotted #bcbcbc;
+}
+
+.quit {
+  width: 365px;
+  font-size: 14px;
+  line-height: 1.6em;
+  margin-top: -0.13em;
+  padding-bottom: 4em;
+  /*border: 1px solid white;
+  border-bottom: 3px dotted #bcbcbc;*/
+}
+
+/*
+.black_Q {
+  display: inline-block;
+  font-size: 16px;
+  line-height: 1.6em;
+}
+
+.blue_A {
+  display: inline-block;
+  font-size: 13px;
+  line-height: 1.4em;
+  vertical-align: top;
+  margin-left: 135px;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
 .bottom_gnb {
-  z-index: 10001;
+  z-index: 5;
   position: fixed;
   width: 118px;
   height: 88px;
-  right: 50px;
+  right: 15px;
   bottom: 135px;
   border-radius: 4px;
   overflow: hidden;
@@ -462,13 +588,13 @@ body {
 
 footer {
   display: block;
-  padding: 40px;
+  padding: 40px 15px;
   background-color: #eaeaea;
   color: gray;
 }
 
 footer ol li {
-  margin: 0em 0.5em;
+  margin: 0em 0.2em;
 }
 .f_one {
   display: inline-block;
@@ -492,7 +618,7 @@ footer ol li {
   display: inline-block;
   vertical-align: top;
   position: absolute;
-  right: 50px;
+  right: 15px;
   width: 119px;
   height: 50px;
   overflow: hidden;
