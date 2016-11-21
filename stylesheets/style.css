@@ -571,7 +571,7 @@ body {
   width: 118px;
   height: 88px;
   right: 15px;
-  bottom: 135px;
+  bottom: 47px;
   border-radius: 4px;
   overflow: hidden;
   background-color: #45689b;
@@ -588,39 +588,45 @@ body {
 
 footer {
   display: block;
-  padding: 40px 15px;
+  padding: 30px 15px 45px 20px;
   background-color: #eaeaea;
   color: gray;
 }
 
 footer ol li {
-  margin: 0em 0.2em;
+  margin-right: 1em;
+  vertical-align: text-top;
+
 }
 .f_one {
   display: inline-block;
-  vertical-align: top;
-  font-size: 16px;
-  line-height: 1.6em;
+  font-size: 12px;
+  line-height: 1.4em;
+  /*margin-left: 2.6em;*/
+  vertical-align: text-top;
 }
 
 .f_one_two {
-  font-size: 13px;
+  font-size: 12px;
   line-height: 1.4em;
+  vertical-align: text-top;
 }
 
 .f_two {
   display: inline-block;
-  font-size: 13px;
+  font-size: 12px;
   line-height: 1.4em;
+  vertical-align: text-top;
 }
 
 .ci {
   display: inline-block;
-  vertical-align: top;
-  position: absolute;
-  right: 15px;
+  /*position: absolute;
+  right: 15px;*/
   width: 119px;
   height: 50px;
+  /*margin-left: 2em;*/
+  margin-bottom: 0.5em;
   overflow: hidden;
   text-indent: -9999em;
   background-image:  url('img/cloud_cibg.png');
