@@ -277,7 +277,7 @@ body {
 .cloud {
   position: relative;
   margin: 0 auto;
-  padding:0.3em;
+  padding: 1em 1em;
   max-width: 610px;
   letter-spacing: -0.035em;
 }
@@ -296,13 +296,13 @@ body {
   background-image:  url('img/cloud_bg.png');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 600px 348px;
+  background-size: 575px 348px;
 }
 
 .cloud .cloud_slogan {
   position: relative;
   text-align: left;
-  font-size: 29px;
+  font-size: 25px;
   line-height: 1.4em;
   letter-spacing: -0.035em;
   padding-top: 0.4em;
@@ -317,7 +317,7 @@ body {
   position: relative;
   background-color: #f7f7f7; 
   letter-spacing: -0.035em;
-  padding:0.3em;
+  padding: 1em 1em;
 }
 
 .service #two {
@@ -336,7 +336,7 @@ body {
 }
 
 .service_title {
-  font-size: 32px;
+  font-size: 25px;
   text-align: center;
   margin-bottom: 2em;
 }
@@ -391,7 +391,7 @@ body {
   display: inline-block;
   max-width: 220px;
   vertical-align: top;
-  margin-left: 1.3em;
+  margin-left: 0.7em;
 }
 
 
@@ -462,11 +462,11 @@ body {
   display: inline-block;
   max-width: 220px;
   vertical-align: top;
-  margin-left: 1.3em;
+  margin-left: 0.7em;
 }
 
 .service_sub_title {
-  font-size: 24px;
+  font-size: 21px;
   color: #45689b;
   margin-bottom: 0.5em;
 }
@@ -477,6 +477,7 @@ body {
 }
 
 .slc_st {
+  font-size: 14px;
   color: #45689b;
 }
 
@@ -486,12 +487,13 @@ body {
 }
 
 .service_sub_title_2 {
-  font-size: 24px;
+  font-size: 21px;
   color: #37b9ce;
   margin-bottom: 0.5em;
 }
 
 .slc_st_2 {
+  font-size: 14px;
   color: #37b9ce;
 }
 
