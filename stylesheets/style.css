@@ -285,7 +285,7 @@ body {
 .cloud #one {
   font-size: 32px;
   color: #a0a0a0;
-  padding-top: 40px;
+  padding-top: 80px;
 }
 
 .cloud .bgimg {
@@ -314,31 +314,203 @@ body {
 /*section 3*/
 .service {
   display: block;
+  position: relative;
   background-color: #f7f7f7; 
   letter-spacing: -0.035em;
+  padding:0.3em;
 }
 
 .service #two {
-  position: relative;
+  max-width: 600px;
   font-size: 32px;
   margin: 0 auto;
-  padding:0.3em;
-  max-width: 610px;
-  padding-top: 40px;
+  padding-top: 80px;
   color: #a0a0a0;
 }
 
-.chart {
-  display: block;
-  height: 0;
-  padding-top: 809px;
+.service_con_1 {
+  max-width: 600px;
+  margin: 0 auto;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.service_title {
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.service_left_space {
+  display: inline-block;
+  height: 80px;
+  width: 22px;
+  padding-top: 80px;
+  margin-right: 0.5em;
   overflow: hidden;
   text-indent: -9999em;
-  background-image:  url('img/service_bg.png');
+  background-image:  url('img/(.png');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 590px 809px;
+  background-size: 22px 80px;
+  vertical-align: middle;
 }
+
+.service_bg_1 {
+  display: inline-block;
+  width: 300px;
+  height: 296px;
+  padding-top: 296px;
+  margin-bottom: 1em;
+  overflow: hidden;
+  text-indent: -9999em;
+  background-image:  url('img/service_bg1.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 300px 296px;
+  vertical-align: middle;
+}
+
+.service_right_space {
+  display: inline-block;
+  position: absolute;
+  top: 360px;
+  height: 80px;
+  width: 22px;
+  padding-top: 80px;
+  margin-left: 1em;
+  overflow: hidden;
+  text-indent: -9999em;
+  background-image:  url('img/).png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 22px 80px;
+}
+
+.service_low_con_1 {
+  display: inline-block;
+  max-width: 220px;
+  vertical-align: top;
+  margin-left: 1.3em;
+}
+
+
+.service_con_2 {
+  max-width: 600px;
+  border: ;
+  margin: 0 auto;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.service_dot {
+  overflow: hidden;
+  text-indent: -9999em;
+  text-align: center;
+  border: 1px solid #f7f7f7;
+  border-top: 3px dotted #bcbcbc;
+  margin-bottom: 3em;
+}
+
+.service_left_space_2 {
+  display: inline-block;
+  height: 80px;
+  width: 22px;
+  padding-top: 80px;
+  margin-right: 0.5em;
+  overflow: hidden;
+  text-indent: -9999em;
+  background-image:  url('img/(_2.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 22px 80px;
+  vertical-align: middle;
+}
+
+.service_bg_2 {
+  display: inline-block;
+  width: 300px;
+  height: 296px;
+  padding-top: 296px;
+  margin-bottom: 1em;
+  overflow: hidden;
+  text-indent: -9999em;
+  background-image:  url('img/service_bg2.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 300px 296px;
+  vertical-align: middle;
+}
+
+.service_right_space_2 {
+  display: inline-block;
+  position: absolute;
+  top: 800px;
+  height: 80px;
+  width: 22px;
+  padding-top: 80px;
+  margin-left: 1em;
+  overflow: hidden;
+  text-indent: -9999em;
+  background-image:  url('img/)_2.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 22px 80px;
+}
+
+.service_low_con_1_2 {
+  display: inline-block;
+  max-width: 220px;
+  vertical-align: top;
+  margin-left: 1.3em;
+}
+
+.service_sub_title {
+  font-size: 24px;
+  color: #45689b;
+  margin-bottom: 0.5em;
+}
+
+.service_low_con_2 {
+  font-size: 12px;
+  line-height: 1.4em;
+}
+
+.slc_st {
+  color: #45689b;
+}
+
+.slc_h2 {
+  color: gray;
+  margin-bottom: 0.4em;
+}
+
+.service_sub_title_2 {
+  font-size: 24px;
+  color: #37b9ce;
+  margin-bottom: 0.5em;
+}
+
+.slc_st_2 {
+  color: #37b9ce;
+}
+
+.slc_h2_2 {
+  color: gray;
+  margin-bottom: 0.4em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*section 4*/
 .method {
@@ -458,7 +630,7 @@ body {
 .faq #six {
   font-size: 32px;
   color: #a0a0a0;
-  padding-top: 40px;
+  padding-top: 80px;
 }
 
 .faq_start {
