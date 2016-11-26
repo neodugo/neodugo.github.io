@@ -224,7 +224,8 @@ body {
 
 .cover ol li {
   display: inline-block;
-  width: 190px;
+  width: 250px;
+  height: 120px;
   margin: 0.3em auto;
   border: 1px solid white;
   padding: 1.2em 0.5em;
@@ -232,6 +233,48 @@ body {
   border-radius: 4px;
 }
 
+.li_bg1 {
+  display: inline-block;
+  width: 220px;
+  height: 92px;
+  overflow: hidden;
+  text-indent: -9999em;
+  background-image:  url('img/cover_1.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 220px 92px;
+  vertical-align: middle;
+}
+
+.li_bg2 {
+  display: inline-block;
+  width: 220px;
+  height: 92px;
+  overflow: hidden;
+  text-indent: -9999em;
+  background-image:  url('img/cover_2.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 220px 92px;
+  vertical-align: middle;
+}
+
+.li_bg3 {
+  display: inline-block;
+  width: 220px;
+  height: 92px;
+  overflow: hidden;
+  text-indent: -9999em;
+  background-image:  url('img/cover_3.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 220px 92px;
+  vertical-align: middle;
+}
+
+
+
+/*
 .cover ol li u {
   text-decoration: none;
   display: inline-block;
@@ -243,7 +286,7 @@ body {
   margin-bottom: 0;
   padding-bottom: 0;
   border-bottom: none;
-}
+}*/
 
 .cover p {
   text-align: left;
@@ -256,7 +299,7 @@ body {
   display: inline-block;
   position: relative;
   line-height: 1em;
-  margin-top: 1em;
+  margin-top: 0.3em;
   text-align: center;
 }
 
