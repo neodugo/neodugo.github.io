@@ -596,17 +596,233 @@ body {
 
 
 
+.method {
+  display: block;
+  position: relative;
+  background-color: white;
+  padding: 1em 1em;
+  letter-spacing: -0.035em;
+}
+
+
+.method #three {
+  max-width: 600px;
+  font-size: 32px;
+  margin: 0 auto;
+  padding-top: 80px;
+  color: #a0a0a0;
+}
+
+.md_con {
+  max-width: 600px;
+  position: relative;
+  margin: 0 auto;
+
+}
+
+.md_1 {
+  font-size: 20px;
+  margin-top: 3em;
+  margin-bottom: 1.5em;
+}
+
+.md_1 ol li {
+  display: inline-block;
+  vertical-align: top;  
+  text-indent: -9999em;
+}
+
+.md_1_con{
+  display: block;
+  max-width: 600px;
+  margin-top: 45px;
+  border: 1px solid white;
+  border-bottom: 3px dotted #bcbcbc;
+  
+}
+
+.rhaehfdl {
+  height: 230px;
+  width: 200px;
+  /*margin-top: 45px;*/
+  margin-right: 3.1em;
+  overflow: hidden;
+  background-image:  url('img/rhaehfdl.png');
+  background-repeat: no-repeat;
+  background-position: left-top;
+  background-size: 190px 200px;
+  }
+
+  .tnstj {
+  height: 213px;
+  width: 320px;
+  margin-right: 0.5em;
+  overflow: hidden;
+  background-image:  url('img/순서1.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 320px 213px;
+  }
+
+
+.md_2 {
+  font-size: 20px;
+  margin-top: 3em;
+  margin-bottom: 1.5em;
+}
+
+.md_2 ol li {
+  display: inline-block;
+  vertical-align: top;  
+  text-indent: -9999em;
+}
+
+.md_2_con{
+  display: block;
+  max-width: 600px;
+  margin-top: 45px;
+  border: 1px solid white;
+  border-bottom: 3px dotted #bcbcbc;
+  }
+
+.gosemvhs {
+  height: 230px;
+  width: 200px;
+  margin-right: 3.1em;
+  overflow: hidden;
+  background-image:  url('img/gosemvhs.png');
+  background-repeat: no-repeat;
+  background-position: left-top;
+  background-size: 190px 200px;
+  }
+
+
+  .tnstj_2 {
+  height: 213px;
+  width: 320px;
+  /*margin-top: 45px;*/
+  margin-right: 0.5em;
+  overflow: hidden;
+  background-image:  url('img/순서2.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 320px 213px;
+  }
+
+
+.md_3 {
+  font-size: 20px;
+  margin-top: 3em;
+  margin-bottom: 1.5em;
+}
+
+.md_3 ol li {
+  display: inline-block;
+  vertical-align: top;  
+  text-indent: -9999em;
+}
+
+.md_3_con{
+  display: block;
+  max-width: 600px;
+  margin-top: 45px;
+  border: 1px solid white;
+  border-bottom: 3px dotted #bcbcbc;
+  }
+
+.wlgkcjf {
+  height: 230px;
+  width: 200px;
+  margin-right: 3.1em;
+  overflow: hidden;
+  background-image:  url('img/wlgkcjf.png');
+  background-repeat: no-repeat;
+  background-position: left-top;
+  background-size: 190px 200px;
+  }
+
+
+  .tnstj_3 {
+  height: 213px;
+  width: 320px;
+  /*margin-top: 45px;*/
+  margin-right: 0.5em;
+  overflow: hidden;
+  background-image:  url('img/순서3.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 320px 213px;
+  }
 
 
 
+.md_4 {
+  font-size: 20px;
+  margin-top: 3em;
+  margin-bottom: 1.5em;
+}
+
+.md_4 ol li {
+  display: inline-block;
+  vertical-align: top;  
+  text-indent: -9999em;
+}
+
+.md_4_con{
+  display: block;
+  max-width: 600px;
+  margin-top: 45px;
+  border: 1px solid white;
+  border-bottom: 3px dotted #bcbcbc;
+  }
+
+.rPdirtj {
+  display: inline-block;
+  height: 240px;
+  width: 220px;
+  margin-right: 2.7em;
+  overflow: hidden;
+  background-image:  url('img/rPdirtj.png');
+  background-repeat: no-repeat;
+  background-position: left-top;
+  background-size: 220px 240px;
+  text-indent: -9999em;
+  }
 
 
+  .tnstj_4 {
+  display: inline-block;
+  height: 213px;
+  width: 320px;
+  /*margin-top: 45px;*/
+  margin-right: 0.5em;
+  overflow: hidden;
+  background-image:  url('img/순서3.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 320px 213px;
+  text-indent: -9999em;
+  }
 
 
+.md_5 {
+  position: relative;
+  max-width: 600px;
+  font-size: 32px;
+  margin: 1.5em auto;
+  height: 397px;
+  width: 600px;
+  overflow: hidden;
+  background-image:  url('img/순서5.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 600px 397px;
+  text-indent: -9999em;
 
+}
 
+/*
 
-/*section 4*/
 .method {
   display: block;
   background-color: white; 
@@ -630,9 +846,9 @@ body {
   background-image:  url('img/md.png');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 780px 2000px;
+  background-size: 600px 1396px;
 }
-
+*/
 /*section 5*/
 .cost {
   display: block;
