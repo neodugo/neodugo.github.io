@@ -810,124 +810,140 @@ body {
   max-width: 600px;
   font-size: 32px;
   margin: 1.5em auto;
-  height: 397px;
+  height: 365px;
   width: 600px;
   overflow: hidden;
   background-image:  url('img/순서5.png');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 600px 397px;
-  text-indent: -9999em;
-
+  background-size: 600px 365px;
+  text-indent: -9999em;*/
 }
 
-/*
-
-.method {
-  display: block;
-  background-color: white; 
-  font-size: 34px;
+@media screen and (max-width: 478px) {
+  .md_5 {
+    width: 385px;
+    background-size: 385px;
+    margin-top: -1em;
+    margin-bottom: -1em;
+  }
 }
 
-.method #three {
-  position: absolute;
-  padding-top: 120px;
-  left: 330px;
-  color: #a0a0a0;
+@media screen and (min-width: 1200px) {
+  .md_5 {
+    width: 600px;
+  }
 }
 
-.md {
-  display: block;
-  height: 0;
-  padding-top: 2400px;
-  margin: 0px;
-  overflow: hidden;
-  text-indent: -9999em;
-  background-image:  url('img/md.png');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 600px 1396px;
-}
-*/
+
+
+
 /*section 5*/
 .cost {
   display: block;
   background-color: #f7f7f7; 
-  font-size: 34px;
+  padding: 1em 1em;
+  letter-spacing: -0.035em;
 }
 
 .cost #four {
-  position: absolute;
-  padding-top: 120px;
-  left: 330px;
+  max-width: 600px;
+  font-size: 32px;
+  margin: 0 auto;
+  padding-top: 80px;
   color: #a0a0a0;
 }
 
 .cost_bg {
   display: block;
-  height: 0;
-  padding-top: 713px;
+  position: relative;
+  max-width: 610px;
+  margin: 1.5em auto;
+}
+
+
+.cost_bg1 {
+  display: inline-block;
+  position: relative;
+  max-width: 265px;
+  font-size: 32px;
+  margin-bottom: 0.6em;
+  margin-right: 2em;
+  margin-top: 0.2em;
+  height: 372px;
+  width: 265px;
   overflow: hidden;
-  text-indent: -9999em;
-  background-image:  url('img/cost_bg.png');
+  background-image:  url('img/costbg1.png');
   background-repeat: no-repeat;
-  background-position: center bottom;
-  background-size: 780px 513px;
+  background-position: center;
+  background-size: 255px 372px;
+  text-indent: -9999em;*/
+}
+
+.cost_bg2 {
+  display: inline-block;
+  position: relative;
+  max-width: 265px;
+  font-size: 32px;
+  margin-bottom: 0.6em;
+  margin-top: 0.2em;
+  height: 372px;
+  width: 265px;
+  overflow: hidden;
+  background-image:  url('img/costbg2.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 265px 372px;
+  text-indent: -9999em;*/
 }
 
 /*section 6*/
 .location {
   display: block;
   background-color: white; 
-  font-size: 34px;
+  padding: 1em 1em;
 }
 
 .location #five {
-  position: absolute;
-  padding-top: 120px;
-  left: 330px;
+  max-width: 600px;
+  font-size: 32px;
+  margin: 0 auto;
+  padding-top: 80px;
   color: #a0a0a0;
 }
 
 .location_bg {
   display: block;
-  height: 0;
-  padding-top: 569px;
-  margin: 0em 0em 2em 0em;
+  position: relative;
+  max-width: 600px;
+  height: 413px;
+  padding-top: 463px;
+  margin: 0 auto;
   overflow: hidden;
   text-indent: -9999em;
   background-image:  url('img/location_bg.png');
   background-repeat: no-repeat;
   background-position: center bottom;
-  background-size: 780px 369px;
+  background-size: 600px 413px;
 }
 
-/*section 7*/
-/*.faq {
-  display: block;
-  background-color: white; 
-  font-size: 34px;
+
+@media screen and (max-width: 478px) {
+  .location_bg {
+    width: 385px;
+    background-size: 385px;
+    margin-top: -1em;
+    margin-bottom: -1em;
+  }
 }
 
-.faq #six {
-  position: absolute;
-  padding-top: 120px;
-  left: 330px;
-  color: #a0a0a0;
+@media screen and (min-width: 1200px) {
+  .location_bg {
+    width: 600px;
+  }
 }
 
-.faq_bg {
-  display: block;
-  height: 0;
-  padding-top: 2282px;
-  margin: 0em 0em 2em 0em;
-  overflow: hidden;
-  text-indent: -9999em;
-  background-image:  url('img/FAQ_bg.png');
-  background-repeat: no-repeat;
-  background-position: center bottom;
-  background-size: 768px 2082px;
-}*/
+
 
 .faq {
   position: relative;
@@ -946,13 +962,14 @@ body {
 .faq_start {
   display: block;
   height: 0;
-  padding-top: 200px;
+  padding-top: 240px;
+  margin-bottom: -1em;
   overflow: hidden;
   text-indent: -9999em;
   background-image:  url('img/communicater.png');
   background-repeat: no-repeat;
   background-position: left;
-  background-size: 100px 130px;
+  background-size: 135px 180px;
 
 }
 
